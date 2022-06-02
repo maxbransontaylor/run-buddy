@@ -11,6 +11,8 @@ body {
 }
 
 /*apply styles to header*/
+
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -102,3 +104,27 @@ section {
 .hero-form p {
     margin: 5px 0 15px 0;
 }
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    background-color: #024e76;
+    color: #fce138;
+    padding: 10px 20px;
+    border: none;
+}
+
+/*end hero styles*/
