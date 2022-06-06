@@ -150,12 +150,6 @@ section {
 
 /*end hero styles*/
 /*what we dostyles */
-.intro {
-    text-align: center;
-}
-
-
-
 
 .intro p {
     line-height: 1.7;
@@ -163,6 +157,7 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /*end what we do styles*/
@@ -172,10 +167,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -188,7 +184,6 @@ section {
 
 /*begin what you do styles*/
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -217,8 +212,8 @@ section {
 }
 
 /*begin trainers styling*/
-.trainers {
-    text-align: center;
+.flex-row {
+    display: flex;
 }
 
 .trainer {
@@ -267,7 +262,7 @@ section {
 /* begin contact styles*/
 
 .contact {
-    text-align: center;
+
     background: #024e76;
 }
 
